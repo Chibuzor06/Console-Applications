@@ -1,17 +1,15 @@
 #include <iostream>
-#include <cmath>
-using namespace std;
-
-const float pi = 3.1342;
-
-class Spheres{
+ 
+class Sphere{
     private:
     float radius;
     float volume;
 
     public:
-    float volumeOfSpeheres();
+     Sphere();
+    ~Sphere();
+    void volumeOfSphere();
     void getRadiusValues();
-    Spheres();
-    ~Spheres();
-}
+    void surfaceArea();
+   
+};
