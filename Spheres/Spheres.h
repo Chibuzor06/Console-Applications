@@ -6,10 +6,10 @@ class Sphere{
     float volume;
 
     public:
-     Sphere();
-    ~Sphere();
+   
     void volumeOfSphere();
     void getRadiusValues();
     void surfaceArea();
+    
    
 };
