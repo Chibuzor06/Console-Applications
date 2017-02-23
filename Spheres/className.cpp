@@ -4,10 +4,11 @@
 const float pi = 3.142;
 using namespace std;
 
-Sphere::Sphere(float iradius, float ivolume){
-    iradius = radius;
-    ivolume = volume;
-}
+//  Sphere::Sphere(){
+// //     // float iradius = radius;
+// //     // float ivolume = volume;
+//         cout<<"this is the constructor\n"<<endl;
+//  }
 
 void Sphere::getRadiusValues(){
     cout<<"Enter the value of radius: ";
@@ -22,5 +23,6 @@ void Sphere::volumeOfSphere(){
 void Sphere::surfaceArea(){
 }
 
-Sphere::~Sphere(){
-}
+// Sphere::~Sphere(){
+//     cout<<"destructor called"<<endl;
+// }
