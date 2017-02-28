@@ -9,6 +9,6 @@
 using namespace std;
 
 int main(){
-    phoneList obj[20];
+    phoneList o;
     return 0;
 }
