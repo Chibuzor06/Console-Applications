@@ -1,4 +1,13 @@
+#ifndef HEADER_H
+#define HEADER_H
 #include <iostream>
+#include <string.h>
+#include <iomanip>
+#include <fstream>
+#include <cstdlib>
+#define FILE_IN "phonebook.txt"
+
+
 
 class phoneList{
 
@@ -14,3 +23,5 @@ class phoneList{
     void printListing();
     ~phoneList();
 };
+
+#endif
