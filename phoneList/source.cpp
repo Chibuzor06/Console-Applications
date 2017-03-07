@@ -9,7 +9,9 @@
 using namespace std;
 
 phoneList::phoneList(){
-    cout<<"hello"<<endl;
+    // name[0] = '\0';
+    // address[0] = '\0';
+    areacode = exchange = phonenumber = 0 ;
 
 };
 
@@ -27,7 +29,8 @@ void phoneList::setPhoneNo(int a,int ex,int phone){
     int phonenumber = phone;
 };
 void phoneList::printListing(){
-
+    cout << endl << setw(25) << name << setw(30) << address << " ";
+    cout << areacode << " - " << exchange << " - " << phonenumber;
 };
 
 phoneList::~phoneList(){
