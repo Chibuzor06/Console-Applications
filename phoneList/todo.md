@@ -14,4 +14,4 @@ the code is  still very much buggy as it doesnt fully display the file entered.
 2. create the form
 =======
 2. Create a form and then collect inputs from the user
->>>>>>> eec7df73bb73a4e8fecd80bc05ed4b101e12c4d3
+
