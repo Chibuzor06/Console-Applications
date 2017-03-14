@@ -31,5 +31,19 @@ void Date::writeDate(){
 bool valDate(){
 	// implement the logic here using an if checker for the months
 	// if ()
+	int noDay[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+	if (month < 1 || month > 12){
+		if (day <= noDay[month-1]){
+			return true;
+		};
+	}
 	
+}
+void Date::howManyDays(){
+	int noDay[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+	int sum = 0;
+	if(i=0; i < month; i++){
+		sum =+ noDay[i];
+	}
+	cout<< sum + day;
 }
