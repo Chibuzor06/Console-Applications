@@ -4,9 +4,9 @@
 class Date{
     private:
     int day, month, year;
+    void howManyDays();
 
-    public:
-    Date();
+    public:;
     Date(int m,int d);
     void getDate();
     void writeDate();
