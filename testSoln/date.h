@@ -7,11 +7,13 @@ class Date{
     void howManyDays();
 
     public:;
+    Date();
     Date(int m,int d);
+    void setDate(int m,int d);
     void getDate();
     void writeDate();
     bool valDate();
-    void howManyDays();
+    //void howManyDays();
 };
 
 #endif
